@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstproject.uil">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="MyFirstProject"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+                    </activity>
+        <activity
+            android:name=".Signupactivity"
+            android:label="SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".EgActivity"
+            android:label="ListActivity"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".ListAndGrid"
+            android:label="ListAndGridActivity"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".List"
+            android:label="List View"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".Grid"
+            android:label="Grid View"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".GpsActivity"
+            android:label="GpsActivity"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="SignUp"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".ManageData"
+            android:label="ManageData"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".EditData"
+            android:label="EditData"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".RowAndColumn"
+            android:label="RowAndColumn"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".DisplayRow"
+            android:label="RowDisplay"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".Components"
+            android:label="Components"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".ExpandableList"
+            android:label="ExpandableList"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".ImageUpload"
+            android:label="ImageUpload"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".JsonParsing"
+            android:label="JSONparsing"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".XmlParsing"
+            android:label="XMLparsing"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".JsonParsingWeb"
+            android:label="JsonParsingWeb"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".JsonParsinWeb"
+            android:label="Json Parsing from Web"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".XmlParsingWeb"
+            android:label="XML Parsing from Web"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".WeatherActivity"
+            android:label="WeatherActivity"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".GoogleMapLocation"
+            android:label="Map Location"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".MapRouteActivity"
+            android:label="Route Map"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".Zx"
+            android:label="Listview with Images"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".R_Main"
+            android:label="Recycler and Card View"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".R_MainGrid"
+            android:label="R_MainGrid"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".ListAddingData"
+            android:label="List Adding Data"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".RecyclerView"
+            android:label="Recycler View"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".MainFragment"
+            android:label="ListAddingData"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+        <activity
+            android:name=".FragmentTabActivity"
+            android:label="Fragment Tab Activity"
+            android:theme="@style/AppTheme.NoActionBar">            </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="Navigation Drawer Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+        <meta-data android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+
+
+        <activity
+            android:name=".SharedPreferencess"
+            android:label="Shared Prefereces"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+    </application>
+
+</manifest>

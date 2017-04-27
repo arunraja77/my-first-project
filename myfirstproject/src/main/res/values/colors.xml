@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+    <color name="Blue">#5369ac</color>
+    <color name="skyBlue">#b388dd</color>
+    <color name="shadow">#e6fff2</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="green">#66ff99</color>
+    <color name="brown">#6666ff</color>
+    <color name="brown2">#e6f3ff</color>
+    <color name="skyBlue2">#4dd2ff</color>
+    <color name="green1">#339933</color>
+    <color name="black"> #000000</color>
+    <color name="white">#ffffff</color>
+
+
+
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+
+
+</resources>

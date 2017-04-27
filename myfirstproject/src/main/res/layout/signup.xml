@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SignUp">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/brown2"
+    android:padding="10dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:id="@+id/layout22">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_manageData"
+                android:text="MANAGE DATA"
+                android:background="@color/green1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtext_firstname"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:hint="Enter First Name"
+        android:singleLine="true"
+        android:paddingTop="5dp"/>
+
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtext_lastname"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Last Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtext_username"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:hint="Enter User Name"/>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtext_newpwd"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Enter New Password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtext_confirmpwd"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Confirm password"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:weightSum="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:id="@+id/btn_reg"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/brown"
+            android:layout_weight="0.64"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:weightSum="1">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/btn_cancel"
+            android:layout_marginLeft="0dp"
+            android:background="@color/brown"
+            android:layout_weight="0.64" />
+    </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
